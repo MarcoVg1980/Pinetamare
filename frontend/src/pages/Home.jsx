@@ -510,7 +510,7 @@ const Home = () => {
 
           <div className="text-center mt-12">
             <a 
-              href="https://www.airbnb.com/rooms/1094849969088520293/reviews"
+              href="https://airbnb.com/h/pinetamare20"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 text-sky-600 hover:text-sky-700 font-semibold transition-colors duration-200"
