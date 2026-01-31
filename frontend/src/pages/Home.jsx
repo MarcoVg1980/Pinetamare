@@ -542,7 +542,7 @@ const Home = () => {
               <span>Invia Email</span>
             </a>
             <a 
-              href="https://m.me/pinetamare"
+              href="https://m.me/100090423908747?hash=AbbGsN965Oe5cZJ0&source_id=8585216"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 bg-white text-sky-700 px-8 py-4 rounded-lg font-semibold hover:bg-sky-50 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
@@ -649,7 +649,7 @@ const Home = () => {
                     <Facebook className="h-5 w-5 text-white" />
                   </a>
                   <a 
-                    href="https://m.me/pinetamare"
+                    href="https://m.me/100090423908747?hash=AbbGsN965Oe5cZJ0&source_id=8585216"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-10 h-10 bg-sky-600 hover:bg-sky-700 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
