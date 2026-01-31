@@ -5,8 +5,18 @@ import { Card, CardContent } from '../components/ui/card';
 
 const Home = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [selectedGalleryImage, setSelectedGalleryImage] = useState(null);
 
+  // Hero slider images
   const images = [
+    {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/sshzcft4_IMG_5674.jpeg',
+      alt: 'Tramonto sulla spiaggia di Viareggio'
+    },
+    {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/lw1c0vgl_IMG_5796.png',
+      alt: 'Spiaggia al tramonto con ombrelloni'
+    },
     {
       url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/moplhtb7_IMG_4434.heic',
       alt: 'Sala da pranzo luminosa con vista'
@@ -16,16 +26,62 @@ const Home = () => {
       alt: 'Camera da letto confortevole'
     },
     {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/dcafliod_IMG_4400.heic',
+      alt: 'Cucina moderna e attrezzata'
+    }
+  ];
+
+  // Gallery images
+  const galleryImages = [
+    {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/moplhtb7_IMG_4434.heic',
+      title: 'Sala da Pranzo',
+      category: 'Interni'
+    },
+    {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/cc4pu73i_IMG_4708.heic',
+      title: 'Camera da Letto',
+      category: 'Interni'
+    },
+    {
       url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/gr2a4dwl_IMG_4384.heic',
-      alt: 'Tavolo da pranzo elegante'
+      title: 'Tavolo da Pranzo',
+      category: 'Interni'
     },
     {
       url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/dcafliod_IMG_4400.heic',
-      alt: 'Cucina moderna e attrezzata'
+      title: 'Cucina Attrezzata',
+      category: 'Interni'
     },
     {
       url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/5ns21zjn_IMG_4386.heic',
-      alt: 'Dettagli decorativi'
+      title: 'Dettagli Decorativi',
+      category: 'Interni'
+    },
+    {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/99w1b8pk_IMG_4428.heic',
+      title: 'Seconda Camera',
+      category: 'Interni'
+    },
+    {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/xrt348tm_IMG_4404.heic',
+      title: 'Bagno',
+      category: 'Interni'
+    },
+    {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/7j1mx23w_IMG_4435.heic',
+      title: 'Terza Camera',
+      category: 'Interni'
+    },
+    {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/sshzcft4_IMG_5674.jpeg',
+      title: 'Tramonto sulla Pineta',
+      category: 'Dintorni'
+    },
+    {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/lw1c0vgl_IMG_5796.png',
+      title: 'Spiaggia di Viareggio',
+      category: 'Dintorni'
     }
   ];
 
