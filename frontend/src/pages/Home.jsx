@@ -317,6 +317,88 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Reviews Section */}
+      <section className="py-24 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center space-x-2 mb-4">
+              {[...Array(5)].map((_, i) => (
+                <Star key={i} className="h-6 w-6 fill-yellow-400 text-yellow-400" />
+              ))}
+            </div>
+            <h3 className="text-4xl font-bold text-gray-900 mb-4">Cosa Dicono i Nostri Ospiti</h3>
+            <p className="text-gray-600 text-lg">Recensioni verificate da Airbnb</p>
+          </div>
+
+          <div className="max-w-4xl mx-auto">
+            <Card className="border-none shadow-xl bg-gradient-to-br from-sky-50 to-blue-50">
+              <CardContent className="p-8 md:p-12">
+                <div className="flex items-start space-x-4 mb-6">
+                  <div className="flex-shrink-0">
+                    <div className="w-16 h-16 bg-sky-600 rounded-full flex items-center justify-center">
+                      <span className="text-2xl font-bold text-white">J</span>
+                    </div>
+                  </div>
+                  <div className="flex-1">
+                    <div className="flex items-center justify-between mb-2">
+                      <div>
+                        <h4 className="text-xl font-bold text-gray-900">Joey</h4>
+                        <p className="text-gray-600 text-sm">10 anni su Airbnb</p>
+                      </div>
+                      <div className="flex items-center space-x-1">
+                        {[...Array(5)].map((_, i) => (
+                          <Star key={i} className="h-5 w-5 fill-yellow-400 text-yellow-400" />
+                        ))}
+                      </div>
+                    </div>
+                    <p className="text-gray-500 text-sm mb-4">Luglio 2025</p>
+                  </div>
+                </div>
+
+                <div className="relative">
+                  <Quote className="absolute -top-2 -left-2 h-8 w-8 text-sky-200" />
+                  <p className="text-gray-700 leading-relaxed text-lg pl-6 italic">
+                    Siamo stati a casa di Marco per un mese ed è stato come essere a casa nostra fin dal momento in cui siamo entrati. 
+                    Sua madre e suo padre ci hanno accolto e ci hanno mostrato l'intero appartamento. Lo spazio è enorme e molto pulito. 
+                    È di dimensioni perfette, ha tutto il necessario per cucinare, vivere e pulire! L'appartamento e la zona sono super 
+                    sicuri e perfettamente situati sulla stessa strada di negozi di alimenti biologici, generi alimentari, macelleria 
+                    e il supermercato locale è a 10 minuti a piedi. La spiaggia è a 7 minuti a piedi e il parco è raggiungibile in 1 minuto! 
+                    Ambiente incantevole e Viareggio è una città splendida. Marco e la sua famiglia sono diventati come una famiglia per noi. 
+                    Sono stati sempre molto reattivi e ci hanno contattato per vedere se stavamo bene e se avevamo bisogno di qualcosa. 
+                    Le persone più gentili che abbiamo incontrato a Viareggio. Sicuramente tornerò a visitare e soggiornare a casa di Marco. 
+                    Grazie Marco per te, i tuoi genitori e la tua bella casa.
+                  </p>
+                </div>
+
+                <div className="mt-8 pt-6 border-t border-sky-200">
+                  <div className="flex items-center space-x-3">
+                    <div className="w-10 h-10 bg-sky-600 rounded-full flex items-center justify-center">
+                      <span className="text-sm font-bold text-white">M</span>
+                    </div>
+                    <div>
+                      <p className="text-sm font-semibold text-gray-900">Risposta di Marco</p>
+                      <p className="text-sm text-gray-600">Luglio 2025</p>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12">
+            <a 
+              href="https://www.airbnb.com/rooms/1094849969088520293/reviews"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 text-sky-600 hover:text-sky-700 font-semibold transition-colors duration-200"
+            >
+              <span>Leggi tutte le recensioni su Airbnb</span>
+              <ChevronRight className="h-5 w-5" />
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section id="contact" className="py-24 bg-gradient-to-br from-sky-600 to-blue-700 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLW9wYWNpdHk9Ii4xIi8+PC9nPjwvc3ZnPg==')] opacity-10"></div>
