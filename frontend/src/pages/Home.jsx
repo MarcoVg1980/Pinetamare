@@ -98,7 +98,7 @@ const Home = () => {
     },
     {
       icon: Users,
-      title: 'Fino a 6 Ospiti',
+      title: 'Fino a 8 Ospiti',
       description: 'Spazio confortevole per tutta la famiglia'
     },
     {
