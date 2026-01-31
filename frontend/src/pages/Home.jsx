@@ -413,7 +413,7 @@ const Home = () => {
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center flex-wrap">
             <a 
-              href="mailto:whatapp@example.com"
+              href="mailto:pinetamare20@gmail.com"
               className="inline-flex items-center space-x-2 bg-white text-sky-700 px-8 py-4 rounded-lg font-semibold hover:bg-sky-50 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
             >
               <Mail className="h-5 w-5" />
