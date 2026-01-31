@@ -287,6 +287,72 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Gallery Section */}
+      <section id="gallery" className="py-24 bg-gradient-to-br from-gray-50 to-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center space-x-2 mb-4">
+              <Image className="h-8 w-8 text-sky-600" />
+            </div>
+            <h3 className="text-4xl font-bold text-gray-900 mb-4">Galleria Fotografica</h3>
+            <p className="text-gray-600 text-lg">Scopri gli spazi dell'appartamento e i dintorni</p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            {galleryImages.map((image, index) => (
+              <div
+                key={index}
+                className="group relative overflow-hidden rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 cursor-pointer aspect-square"
+                onClick={() => setSelectedGalleryImage(image)}
+              >
+                <img
+                  src={image.url}
+                  alt={image.title}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  loading="lazy"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <div className="absolute bottom-0 left-0 right-0 p-4">
+                    <span className="inline-block px-3 py-1 bg-sky-600 text-white text-xs font-semibold rounded-full mb-2">
+                      {image.category}
+                    </span>
+                    <h4 className="text-white font-bold text-lg">{image.title}</h4>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Gallery Modal */}
+      {selectedGalleryImage && (
+        <div
+          className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center p-4"
+          onClick={() => setSelectedGalleryImage(null)}
+        >
+          <button
+            className="absolute top-4 right-4 text-white hover:text-sky-400 transition-colors duration-200"
+            onClick={() => setSelectedGalleryImage(null)}
+          >
+            <X className="h-8 w-8" />
+          </button>
+          <div className="relative max-w-6xl max-h-[90vh] w-full" onClick={(e) => e.stopPropagation()}>
+            <img
+              src={selectedGalleryImage.url}
+              alt={selectedGalleryImage.title}
+              className="w-full h-full object-contain rounded-lg"
+            />
+            <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6 rounded-b-lg">
+              <span className="inline-block px-3 py-1 bg-sky-600 text-white text-xs font-semibold rounded-full mb-2">
+                {selectedGalleryImage.category}
+              </span>
+              <h3 className="text-white text-2xl font-bold">{selectedGalleryImage.title}</h3>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Amenities Section */}
       <section className="py-24 bg-gradient-to-br from-sky-50 to-blue-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
