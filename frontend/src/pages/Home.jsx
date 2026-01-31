@@ -328,13 +328,22 @@ const Home = () => {
             Assistenza durante il soggiorno per qualsiasi problematica, per garantirti una vacanza senza pensieri!
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center flex-wrap">
             <a 
               href="mailto:whatapp@example.com"
               className="inline-flex items-center space-x-2 bg-white text-sky-700 px-8 py-4 rounded-lg font-semibold hover:bg-sky-50 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
             >
               <Mail className="h-5 w-5" />
               <span>Invia Email</span>
+            </a>
+            <a 
+              href="https://m.me/pinetamare"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 bg-white text-sky-700 px-8 py-4 rounded-lg font-semibold hover:bg-sky-50 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
+            >
+              <MessageCircle className="h-5 w-5" />
+              <span>Contattaci su Messenger</span>
             </a>
             <a 
               href="https://airbnb.com/h/pinetamare20"
@@ -344,6 +353,15 @@ const Home = () => {
             >
               <HomeIcon className="h-5 w-5" />
               <span>Vedi su Airbnb</span>
+            </a>
+            <a 
+              href="https://www.facebook.com/share/1NRNChRbnX/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 bg-sky-800 text-white px-8 py-4 rounded-lg font-semibold hover:bg-sky-900 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
+            >
+              <Facebook className="h-5 w-5" />
+              <span>Pagina Facebook</span>
             </a>
           </div>
         </div>
