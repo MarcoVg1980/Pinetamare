@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MapPin, Users, Bed, Bath, Wifi, Car, Wind, Home as HomeIcon, Mail, Phone, ChevronLeft, ChevronRight, Check } from 'lucide-react';
+import { MapPin, Users, Bed, Bath, Wifi, Car, Wind, Home as HomeIcon, Mail, Phone, ChevronLeft, ChevronRight, Check, Facebook, MessageCircle } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 
