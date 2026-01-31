@@ -479,7 +479,7 @@ const Home = () => {
               <ul className="space-y-2">
                 <li className="flex items-center space-x-2">
                   <Mail className="h-4 w-4 text-sky-400" />
-                  <span>whatapp@example.com</span>
+                  <span>pinetamare20@gmail.com</span>
                 </li>
                 <li className="flex items-center space-x-2">
                   <MapPin className="h-4 w-4 text-sky-400" />
