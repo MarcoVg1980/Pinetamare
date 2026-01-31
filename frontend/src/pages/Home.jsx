@@ -619,8 +619,26 @@ const Home = () => {
               </ul>
               
               <div className="mt-6">
-                <h5 className="text-sm font-semibold text-white mb-3">Seguici</h5>
-                <div className="flex space-x-4">
+                <h5 className="text-sm font-semibold text-white mb-3">Prenota su</h5>
+                <div className="flex flex-wrap gap-3">
+                  <a 
+                    href="https://airbnb.com/h/pinetamare20"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-sky-600 hover:bg-sky-700 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
+                    aria-label="Airbnb"
+                  >
+                    <HomeIcon className="h-5 w-5 text-white" />
+                  </a>
+                  <a 
+                    href="https://www.booking.com/Share-5gpxJPL"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-sky-600 hover:bg-sky-700 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
+                    aria-label="Booking.com"
+                  >
+                    <Calendar className="h-5 w-5 text-white" />
+                  </a>
                   <a 
                     href="https://www.facebook.com/share/1NRNChRbnX/?mibextid=wwXIfr"
                     target="_blank"
