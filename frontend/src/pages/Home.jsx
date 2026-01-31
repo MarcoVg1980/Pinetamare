@@ -560,6 +560,15 @@ const Home = () => {
               <span>Vedi su Airbnb</span>
             </a>
             <a 
+              href="https://www.booking.com/Share-5gpxJPL"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-2 bg-sky-800 text-white px-8 py-4 rounded-lg font-semibold hover:bg-sky-900 transition-all duration-200 shadow-lg hover:shadow-xl hover:-translate-y-1"
+            >
+              <Calendar className="h-5 w-5" />
+              <span>Prenota su Booking.com</span>
+            </a>
+            <a 
               href="https://www.facebook.com/share/1NRNChRbnX/?mibextid=wwXIfr"
               target="_blank"
               rel="noopener noreferrer"
