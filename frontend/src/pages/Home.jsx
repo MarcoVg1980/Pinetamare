@@ -385,6 +385,30 @@ const Home = () => {
                   <span>Viareggio, Toscana</span>
                 </li>
               </ul>
+              
+              <div className="mt-6">
+                <h5 className="text-sm font-semibold text-white mb-3">Seguici</h5>
+                <div className="flex space-x-4">
+                  <a 
+                    href="https://www.facebook.com/share/1NRNChRbnX/?mibextid=wwXIfr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-sky-600 hover:bg-sky-700 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
+                    aria-label="Facebook"
+                  >
+                    <Facebook className="h-5 w-5 text-white" />
+                  </a>
+                  <a 
+                    href="https://m.me/pinetamare"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-sky-600 hover:bg-sky-700 rounded-full flex items-center justify-center transition-all duration-200 hover:scale-110"
+                    aria-label="Messenger"
+                  >
+                    <MessageCircle className="h-5 w-5 text-white" />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
           
