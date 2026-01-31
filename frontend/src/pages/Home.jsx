@@ -60,18 +60,18 @@ const Home = () => {
     },
     {
       url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/99w1b8pk_IMG_4428.heic',
-      title: 'Seconda Camera',
+      title: 'Bagno con Doccia',
       category: 'Interni'
     },
     {
       url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/xrt348tm_IMG_4404.heic',
-      title: 'Bagno',
+      title: 'Bagno Principale',
       category: 'Interni'
     },
     {
       url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/7j1mx23w_IMG_4435.heic',
-      title: 'Terza Camera',
-      category: 'Interni'
+      title: 'Zona Pineta',
+      category: 'Dintorni'
     },
     {
       url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/sshzcft4_IMG_5674.jpeg',
