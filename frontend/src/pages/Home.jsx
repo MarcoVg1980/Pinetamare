@@ -90,6 +90,7 @@ const Home = () => {
               <a href="#features" className="text-gray-600 hover:text-sky-600 transition-colors duration-200">Caratteristiche</a>
               <a href="#gallery" className="text-gray-600 hover:text-sky-600 transition-colors duration-200">Galleria</a>
               <a href="#location" className="text-gray-600 hover:text-sky-600 transition-colors duration-200">Posizione</a>
+              <a href="#reviews" className="text-gray-600 hover:text-sky-600 transition-colors duration-200">Recensioni</a>
             </nav>
             <Button className="bg-sky-600 hover:bg-sky-700 text-white transition-all duration-200 hover:shadow-lg">
               <a href="#contact">Contattaci</a>
