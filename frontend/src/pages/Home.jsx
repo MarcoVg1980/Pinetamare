@@ -18,16 +18,16 @@ const Home = () => {
       alt: 'Spiaggia al tramonto con ombrelloni'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/moplhtb7_IMG_4434.heic',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/yjihjhcz_IMG_8390.jpeg',
       alt: 'Sala da pranzo luminosa con vista'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/cc4pu73i_IMG_4708.heic',
-      alt: 'Camera da letto confortevole'
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/fp4vtwxt_IMG_8386.jpeg',
+      alt: 'Tavolo da pranzo elegante'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/dcafliod_IMG_4400.heic',
-      alt: 'Cucina moderna e attrezzata'
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/1iwblcm1_IMG_8389.jpeg',
+      alt: 'Bagno moderno e completo'
     }
   ];
 
