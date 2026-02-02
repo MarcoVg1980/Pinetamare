@@ -34,44 +34,29 @@ const Home = () => {
   // Gallery images
   const galleryImages = [
     {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/moplhtb7_IMG_4434.heic',
-      title: 'Sala da Pranzo',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/fp4vtwxt_IMG_8386.jpeg',
+      title: 'Tavolo da Pranzo Elegante',
       category: 'Interni'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/cc4pu73i_IMG_4708.heic',
-      title: 'Camera da Letto',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/yjihjhcz_IMG_8390.jpeg',
+      title: 'Sala da Pranzo con Vista',
       category: 'Interni'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/gr2a4dwl_IMG_4384.heic',
-      title: 'Tavolo da Pranzo',
-      category: 'Interni'
-    },
-    {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/dcafliod_IMG_4400.heic',
-      title: 'Cucina Attrezzata',
-      category: 'Interni'
-    },
-    {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/5ns21zjn_IMG_4386.heic',
-      title: 'Dettagli Decorativi',
-      category: 'Interni'
-    },
-    {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/99w1b8pk_IMG_4428.heic',
-      title: 'Bagno con Doccia',
-      category: 'Interni'
-    },
-    {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/xrt348tm_IMG_4404.heic',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/1iwblcm1_IMG_8389.jpeg',
       title: 'Bagno Principale',
       category: 'Interni'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/7j1mx23w_IMG_4435.heic',
-      title: 'Zona Pineta',
-      category: 'Dintorni'
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/y8d576du_IMG_8388.jpeg',
+      title: 'Bagno con Doccia',
+      category: 'Interni'
+    },
+    {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/9e04q25j_IMG_8387.jpeg',
+      title: 'Dettagli Decorativi Nautici',
+      category: 'Interni'
     },
     {
       url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/sshzcft4_IMG_5674.jpeg',
