@@ -34,6 +34,16 @@ const Home = () => {
   // Gallery images
   const galleryImages = [
     {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/lv48t8av_IMG_8385.jpeg',
+      title: 'Camera da Letto Matrimoniale',
+      category: 'Interni'
+    },
+    {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/af62j1hf_IMG_8383.jpeg',
+      title: 'Cucina Moderna Attrezzata',
+      category: 'Interni'
+    },
+    {
       url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/fp4vtwxt_IMG_8386.jpeg',
       title: 'Tavolo da Pranzo Elegante',
       category: 'Interni'
@@ -57,6 +67,11 @@ const Home = () => {
       url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/9e04q25j_IMG_8387.jpeg',
       title: 'Dettagli Decorativi Nautici',
       category: 'Interni'
+    },
+    {
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/f827b409_IMG_8384.jpeg',
+      title: 'Zona Pineta Viareggio',
+      category: 'Dintorni'
     },
     {
       url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/sshzcft4_IMG_5674.jpeg',
