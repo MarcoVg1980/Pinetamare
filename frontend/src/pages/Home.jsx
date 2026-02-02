@@ -10,23 +10,23 @@ const Home = () => {
   // Hero slider images
   const images = [
     {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/sshzcft4_IMG_5674.jpeg',
+      url: '/images/tramonto-pineta.jpg',
       alt: 'Tramonto sulla spiaggia di Viareggio'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/lw1c0vgl_IMG_5796.png',
+      url: '/images/spiaggia-viareggio.png',
       alt: 'Spiaggia al tramonto con ombrelloni'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/lv48t8av_IMG_8385.jpeg',
+      url: '/images/camera-letto.jpg',
       alt: 'Camera da letto matrimoniale'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/yjihjhcz_IMG_8390.jpeg',
+      url: '/images/sala-pranzo.jpg',
       alt: 'Sala da pranzo luminosa con vista'
     },
     {
-      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/af62j1hf_IMG_8383.jpeg',
+      url: '/images/cucina.jpg',
       alt: 'Cucina moderna e attrezzata'
     }
   ];
