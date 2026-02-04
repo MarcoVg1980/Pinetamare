@@ -7,26 +7,26 @@ const Home = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [selectedGalleryImage, setSelectedGalleryImage] = useState(null);
 
-  // Hero slider images
+  // Hero slider images (GitHub CDN)
   const images = [
     {
-      url: '/images/tramonto-pineta.jpg',
+      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/tramonto-pineta.jpg',
       alt: 'Tramonto sulla spiaggia di Viareggio'
     },
     {
-      url: '/images/spiaggia-viareggio.png',
+      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/spiaggia-viareggio.png',
       alt: 'Spiaggia al tramonto con ombrelloni'
     },
     {
-      url: '/images/camera-letto.jpg',
+      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/camera-letto.jpg',
       alt: 'Camera da letto matrimoniale'
     },
     {
-      url: '/images/sala-pranzo.jpg',
+      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/sala-pranzo.jpg',
       alt: 'Sala da pranzo luminosa con vista'
     },
     {
-      url: '/images/cucina.jpg',
+      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/cucina.jpg',
       alt: 'Cucina moderna e attrezzata'
     }
   ];
