@@ -31,55 +31,55 @@ const Home = () => {
     }
   ];
 
-  // Gallery images (GitHub CDN)
+  // Gallery images
   const galleryImages = [
     {
-      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/camera-letto.jpg',
+      url: '/images/camera-letto.jpg',
       title: 'Camera da Letto Matrimoniale',
       category: 'Interni'
     },
     {
-      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/cucina.jpg',
+      url: '/images/cucina.jpg',
       title: 'Cucina Moderna Attrezzata',
       category: 'Interni'
     },
     {
-      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/tavolo-pranzo.jpg',
+      url: '/images/tavolo-pranzo.jpg',
       title: 'Tavolo da Pranzo Elegante',
       category: 'Interni'
     },
     {
-      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/sala-pranzo.jpg',
+      url: '/images/sala-pranzo.jpg',
       title: 'Sala da Pranzo con Vista',
       category: 'Interni'
     },
     {
-      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/bagno-principale.jpg',
+      url: '/images/bagno-principale.jpg',
       title: 'Bagno Principale',
       category: 'Interni'
     },
     {
-      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/bagno-doccia.jpg',
+      url: '/images/bagno-doccia.jpg',
       title: 'Bagno con Doccia',
       category: 'Interni'
     },
     {
-      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/dettagli.jpg',
+      url: '/images/dettagli.jpg',
       title: 'Dettagli Decorativi Nautici',
       category: 'Interni'
     },
     {
-      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/zona-pineta.jpg',
+      url: '/images/zona-pineta.jpg',
       title: 'Zona Pineta Viareggio',
       category: 'Dintorni'
     },
     {
-      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/tramonto-pineta.jpg',
+      url: '/images/tramonto-pineta.jpg',
       title: 'Tramonto sulla Pineta',
       category: 'Dintorni'
     },
     {
-      url: 'https://raw.githubusercontent.com/MarcoVg1980/Pinetamare/main/frontend/public/images/spiaggia-viareggio.png',
+      url: '/images/spiaggia-viareggio.png',
       title: 'Spiaggia di Viareggio',
       category: 'Dintorni'
     }
