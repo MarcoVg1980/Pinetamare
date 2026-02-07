@@ -59,7 +59,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build && node copy-images.js",
+    "build": "craco build",
     "test": "craco test"
   },
   "browserslist": {
