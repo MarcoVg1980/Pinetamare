@@ -31,55 +31,55 @@ const Home = () => {
     }
   ];
 
-  // Gallery images
+  // Gallery images - URL pubblici JPG
   const galleryImages = [
     {
-      url: '/images/camera-letto.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/lv48t8av_IMG_8385.jpeg',
       title: 'Camera da Letto Matrimoniale',
       category: 'Interni'
     },
     {
-      url: '/images/cucina.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/af62j1hf_IMG_8383.jpeg',
       title: 'Cucina Moderna Attrezzata',
       category: 'Interni'
     },
     {
-      url: '/images/tavolo-pranzo.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/fp4vtwxt_IMG_8386.jpeg',
       title: 'Tavolo da Pranzo Elegante',
       category: 'Interni'
     },
     {
-      url: '/images/sala-pranzo.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/yjihjhcz_IMG_8390.jpeg',
       title: 'Sala da Pranzo con Vista',
       category: 'Interni'
     },
     {
-      url: '/images/bagno-principale.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/1iwblcm1_IMG_8389.jpeg',
       title: 'Bagno Principale',
       category: 'Interni'
     },
     {
-      url: '/images/bagno-doccia.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/y8d576du_IMG_8388.jpeg',
       title: 'Bagno con Doccia',
       category: 'Interni'
     },
     {
-      url: '/images/dettagli.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/9e04q25j_IMG_8387.jpeg',
       title: 'Dettagli Decorativi Nautici',
       category: 'Interni'
     },
     {
-      url: '/images/zona-pineta.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/f827b409_IMG_8384.jpeg',
       title: 'Zona Pineta Viareggio',
       category: 'Dintorni'
     },
     {
-      url: '/images/tramonto-pineta.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/sshzcft4_IMG_5674.jpeg',
       title: 'Tramonto sulla Pineta',
       category: 'Dintorni'
     },
     {
-      url: '/images/spiaggia-viareggio.png',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/lw1c0vgl_IMG_5796.png',
       title: 'Spiaggia di Viareggio',
       category: 'Dintorni'
     }
