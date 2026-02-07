@@ -7,26 +7,26 @@ const Home = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [selectedGalleryImage, setSelectedGalleryImage] = useState(null);
 
-  // Hero slider images
+  // Hero slider images - URL pubblici JPG
   const images = [
     {
-      url: '/images/tramonto-pineta.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/sshzcft4_IMG_5674.jpeg',
       alt: 'Tramonto sulla spiaggia di Viareggio'
     },
     {
-      url: '/images/spiaggia-viareggio.png',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/lw1c0vgl_IMG_5796.png',
       alt: 'Spiaggia al tramonto con ombrelloni'
     },
     {
-      url: '/images/camera-letto.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/lv48t8av_IMG_8385.jpeg',
       alt: 'Camera da letto matrimoniale'
     },
     {
-      url: '/images/sala-pranzo.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/yjihjhcz_IMG_8390.jpeg',
       alt: 'Sala da pranzo luminosa con vista'
     },
     {
-      url: '/images/cucina.jpg',
+      url: 'https://customer-assets.emergentagent.com/job_viavacation/artifacts/af62j1hf_IMG_8383.jpeg',
       alt: 'Cucina moderna e attrezzata'
     }
   ];
